@@ -18,7 +18,7 @@
 
 .cards .cards-card-image {
   line-height: 0;
-  border: solid 5px yellow;
+  border: solid 5px magenta;
 }
 
 .cards .cards-card-body > *:first-child {
