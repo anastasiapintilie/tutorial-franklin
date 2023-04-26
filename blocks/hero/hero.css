@@ -1,5 +1,19 @@
 /* block specific CSS goes here */
 
+.herocard-welcome-header-background{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.herocard-welcome-header-background div div{
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.35);
+  padding: 2rem;
+}
+
 main .hero-container > div {
   max-width: unset;
 }
@@ -11,14 +25,16 @@ main .hero-container {
 main .hero {
   position: relative;
   padding: 32px;
-  min-height: 300px;
+  min-height: 350px;
 }
 
 main .hero h1 {
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
+  margin-left: 40px;
+  font-size: 6vw;
+  -webkit-text-stroke: 2px black;
+  font-family: 'Amatic SC', cursive;
+      color: #bdf1f1;
 }
 
 main .hero picture {

@@ -2,6 +2,9 @@ export default function decorate(block) {
   const cols = [...block.firstElementChild.children];
   block.classList.add(`columns-${cols.length}-cols`);
 
+  const imagesInCols = document.querySelectorAll("img");
+  Array.from(imagesInCols).map((image,index) => index!==0 && image.classList.add('image-in-column'));
+
   // setup image columns
   [...block.children].forEach((row) => {
     [...row.children].forEach((col) => {

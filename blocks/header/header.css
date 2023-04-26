@@ -53,6 +53,10 @@ header nav p {
   line-height: 1;
 }
 
+header nav a {
+  display: flex;
+}
+
 header nav a:any-link {
   color: currentcolor;
 }
